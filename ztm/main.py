@@ -90,17 +90,22 @@
 # with	Used to simplify exception handling
 # yield	To end a function, returns a generator
 
-username = "Mateusz"
-password = "Konopka"
-very_long_string = '''
-   /\ 
-  /  \ 
- /    \ 
-/______\ 
-'''
-print(very_long_string)
+# username = "Mateusz"
+# password = "Konopka"
+# very_long_string = '''
+#    /\
+#   /  \
+#  /    \
+# /______\
+# '''
+# print(very_long_string)
+#
+# full_name = username + " " + password
+# print(full_name)
+#
+# print(type(int(str(100))))
 
-full_name = username + " " + password
-print(full_name)
+# Escape Sequence
+weather = "\t It's \"kind of\" sunny \n Hope You'll have a good day!"
+print(weather)
 
-print(type(int(str(100))))
