@@ -109,6 +109,7 @@
 # weather = "\t It's \"kind of\" sunny \n Hope You'll have a good day!"
 # print(weather)
 
+# Formatted Strings
 # name = "Johnny"
 # age = 55
 # print("Hi " + name +". You are " + str(age) + " years old.")
@@ -116,6 +117,7 @@
 # print("Hi {}. You are {} years old.".format(name, age))
 # print("Hi {1}. You are {0} years old.".format(name, age))
 
+# String Indexes
 # selfish = "01234567"
 #          # 01234567
 # print(selfish[0])
@@ -127,4 +129,69 @@
 # print(selfish[-1:])
 # print(selfish[::-1])
 
+# Build in Functions
+# str()
+# int()
+# float()
+# type()
+# print()
+# len()
+# print(len("Hellllllllllo"))
+# greet = "Hellllllo Mateusz"
+# print(greet[0:len(greet)])
 
+# quote = "to be or not to be"
+# print(quote.upper())
+# print(quote.capitalize())
+# print(quote.find("be"))
+# print(quote.replace("be", "me"))
+# quote2 = quote.replace("to", "or")
+# print(quote2)
+# print(quote)
+
+# Booleans
+# bool
+# True or False
+#
+# name = "Mateusz"
+# is_cool = False
+
+# is_cool = True
+# print(bool(1))
+# print(bool(0))
+
+# Type Conversion
+# name = "Mateusz Konopka"
+# age = 19
+# status = "online"
+#
+# status = "offline"
+#
+# print(status)
+
+# Lists
+# list = [1, 2, 3, 4, 5]
+# list1 = ["a", "b", "c"]
+# list2 = [1 , "a", True]
+# amazon_cart = ["notebooks",
+#                "sunglasses",
+#                "toys",
+#                "grapes"
+#                ]
+# print(amazon_cart)
+#
+# # List Slicing
+# amazon_cart[0] = "laptop"
+# new_amazon_cart = amazon_cart[:]
+# new_amazon_cart[0] = "gum"
+# print(amazon_cart[0::2])
+# print(new_amazon_cart)
+# print(amazon_cart)
+
+# Matrix
+matrix = [
+    [1,0,1],
+    [0,1,0],
+    [1,0,1]
+]
+print(matrix[2][1])
