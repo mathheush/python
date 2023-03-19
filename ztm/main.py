@@ -106,6 +106,25 @@
 # print(type(int(str(100))))
 
 # Escape Sequence
-weather = "\t It's \"kind of\" sunny \n Hope You'll have a good day!"
-print(weather)
+# weather = "\t It's \"kind of\" sunny \n Hope You'll have a good day!"
+# print(weather)
+
+# name = "Johnny"
+# age = 55
+# print("Hi " + name +". You are " + str(age) + " years old.")
+# print(f"Hi {name}. You are {age} years old.")
+# print("Hi {}. You are {} years old.".format(name, age))
+# print("Hi {1}. You are {0} years old.".format(name, age))
+
+# selfish = "01234567"
+#          # 01234567
+# print(selfish[0])
+# print(selfish[7])
+# [start:stop:stepover]
+# print(selfish[0:8:2])
+# print(selfish[1:])
+# print(selfish[:5])
+# print(selfish[-1:])
+# print(selfish[::-1])
+
 
