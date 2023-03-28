@@ -189,9 +189,60 @@
 # print(amazon_cart)
 
 # Matrix
-matrix = [
-    [1,0,1],
-    [0,1,0],
-    [1,0,1]
-]
-print(matrix[2][1])
+# matrix = [
+#     [1,0,1],
+#     [0,1,0],
+#     [1,0,1]
+# ]
+# print(matrix[2][1])
+
+# basket = [1, 2, 3, 4, 5]
+# print(len(basket))
+#
+# # adding
+# basket.append(100)
+# new_basket = basket
+# print(new_basket)
+#
+# new_list = basket.extend([6])
+# print(basket)
+#
+# # removing
+#
+# basket.remove(100)
+# print(basket)
+# basket.pop()
+# basket.pop(0)
+# print(basket)
+# basket.clear()
+# print(basket)
+
+# basket = ["a", "x", "b", "c", "d", "e", "d"]
+# print(basket.index("d", 0, 5))
+# print("d" in basket)
+# print("x" in basket)
+# print("i" in "Hi my name in Ian")
+# print(basket.count("d"))
+# print(sorted(basket))
+# print(basket)
+# basket.sort()
+# basket.reverse()
+# print(basket)
+# print(basket[::-1])
+#
+# print(list(range(1, 100)))
+#
+#
+# new_sentence = " ".join(["Hi", "my", "name", "is", "Mateusz"])
+# print(new_sentence)
+#
+# #list unpacking
+# a, b, c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# print(c)
+# print(b)
+# print(a)
+# print(other)
+# print(d)
+
+# weapons = None
+# print(weapons)
