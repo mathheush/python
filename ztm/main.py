@@ -246,3 +246,70 @@
 
 # weapons = None
 # print(weapons)
+
+# Dictionary
+# dictionary = {
+#     "a": [1,2,3],
+#     "b": "Hello",
+#     "x": True
+# }
+# my_list = [{
+#     "a": [1,2,3],
+#     "b": "Hello",
+#     "x": True
+# },
+#     {
+#         "a": [4, 5, 6],
+#         "b": "Hello",
+#         "x": True
+#     }
+# ]
+# print(dictionary["a"][1])
+# print(my_list[1]["a"][1])
+
+# user = {
+#     "name": "Mateusz",
+#     "weapons": "AK",
+#     "age": "19"
+# }
+# user2 = dict(name = "Szymon")
+# print(user.get("age", "No age found"))
+# print(user2)
+#
+# print("age" in user)
+# print("Mateusz" in user.keys())
+# print("Mateusz" in user.values())
+# print(user.items())
+# user3 = user.copy()
+# user.clear()
+# print(user3)
+# print(user)
+# print(user3.pop("age"))
+# user3.popitem()
+# user3.update({"name": "Oliwier"})
+# print(user3)
+# user3.update(names = "Olek")
+# print(user3)
+
+# Tuples
+# my_tuple = (1,2,3,4)
+# print(my_tuple[1])
+# print(2 in my_tuple)
+#
+# user = {
+#     (1,2,3): "Mateusz",
+#     "weapons": "AK",
+#     "age": "19"
+# }
+# print(user.items())
+# print(user[(1,2,3)])
+
+my_tuple = (1,2,3,4,5,5,5,5)
+new_tuple = my_tuple[0:3]
+print(new_tuple)
+
+a,b,c, *other = (1,2,3,4,5)
+print(other)
+print(my_tuple.count(5))
+print(len(my_tuple))
+print(my_tuple.index(2))
