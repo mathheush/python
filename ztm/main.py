@@ -1,7 +1,9 @@
+# -------------------- Python Basics I --------------------
+
 # print("Mateusz Konopka")
 # name = input("What is your name?")
 # print("Hi " + name)
-#
+
 #  Fundamental Data Types
 # int
 # float
@@ -346,3 +348,51 @@
 # your_set = {4,5,6,7,8,9,10}
 # print(my_set.issubset(your_set))
 # print(your_set.issuperset(my_set))
+
+
+# -------------------- Python Basics II --------------------
+
+
+# Conditional logic
+
+# is_old = False
+# is_licenced = False
+#
+# if is_old:
+#     print("You are old enough to drive!")
+# elif is_licenced:
+#     print("You can drive now!")
+# else:
+#     print("You are out of age!")
+#
+# is_old = True
+# is_licenced = True
+#
+# if is_old and is_licenced:
+#     print("You are old enough to drive, and you have licence!")
+# else:
+#     print("You are out of age!")
+
+
+# Indentation in Python
+
+# one space or four spaces
+
+
+# Truthy vs Falsey
+
+# print(bool(5))
+# print(bool("hi"))
+# print(bool(0))
+# print(bool(""))
+
+# username = "Mateusz"
+# password = "123"
+#
+# if username and password:
+#     print("Ok")
+# else: print("Not ok")
+
+
+# Ternary operator
+
