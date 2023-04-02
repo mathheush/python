@@ -396,3 +396,23 @@
 
 # Ternary operator
 
+# condition_if_true if condition else condition_if_false
+# is_friend = True
+# can_message = "message allowed" if is_friend else "message is not allowed"
+# print(can_message)
+
+
+# Short circuiting
+
+# is_friend = True
+# is_user = False
+#
+# if is_friend or is_user:
+#     print("best friends forever")
+#
+# if is_friend and is_user:
+#     print("best friends forever")
+# else: print("not bff")
+
+
+# Logical Operators
