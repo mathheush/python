@@ -16,20 +16,20 @@
 # /
 # //
 # %
-#
+
 # bool
 # str
 # list
 # tuple
 # set
 # dict
-#
+
 #  Classes -> custom types
 #
 #  Specialized Data Types
-#
+
 # None
-#
+
 # Math Functions
 # print(round(3.1))
 # print(round(3.5))
@@ -101,10 +101,10 @@
 # /______\
 # '''
 # print(very_long_string)
-#
+
 # full_name = username + " " + password
 # print(full_name)
-#
+
 # print(type(int(str(100))))
 
 # Escape Sequence
@@ -154,7 +154,7 @@
 # Booleans
 # bool
 # True or False
-#
+
 # name = "Mateusz"
 # is_cool = False
 
@@ -166,9 +166,9 @@
 # name = "Mateusz Konopka"
 # age = 19
 # status = "online"
-#
+
 # status = "offline"
-#
+
 # print(status)
 
 # Lists
@@ -181,7 +181,7 @@
 #                "grapes"
 #                ]
 # print(amazon_cart)
-#
+
 # # List Slicing
 # amazon_cart[0] = "laptop"
 # new_amazon_cart = amazon_cart[:]
@@ -200,17 +200,17 @@
 
 # basket = [1, 2, 3, 4, 5]
 # print(len(basket))
-#
+
 # # adding
 # basket.append(100)
 # new_basket = basket
 # print(new_basket)
-#
+
 # new_list = basket.extend([6])
 # print(basket)
-#
-# # removing
-#
+
+# removing
+
 # basket.remove(100)
 # print(basket)
 # basket.pop()
@@ -231,13 +231,13 @@
 # basket.reverse()
 # print(basket)
 # print(basket[::-1])
-#
+
 # print(list(range(1, 100)))
-#
-#
+
+
 # new_sentence = " ".join(["Hi", "my", "name", "is", "Mateusz"])
 # print(new_sentence)
-#
+
 # #list unpacking
 # a, b, c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # print(c)
@@ -277,7 +277,7 @@
 # user2 = dict(name = "Szymon")
 # print(user.get("age", "No age found"))
 # print(user2)
-#
+
 # print("age" in user)
 # print("Mateusz" in user.keys())
 # print("Mateusz" in user.values())
@@ -297,7 +297,7 @@
 # my_tuple = (1,2,3,4)
 # print(my_tuple[1])
 # print(2 in my_tuple)
-#
+
 # user = {
 #     (1,2,3): "Mateusz",
 #     "weapons": "AK",
@@ -305,11 +305,11 @@
 # }
 # print(user.items())
 # print(user[(1,2,3)])
-#
+
 # my_tuple = (1,2,3,4,5,5,5,5)
 # new_tuple = my_tuple[0:3]
 # print(new_tuple)
-#
+
 # a,b,c, *other = (1,2,3,4,5)
 # print(other)
 # print(my_tuple.count(5))
@@ -326,7 +326,7 @@
 # print(len(my_set))
 # new_set = my_set.copy()
 # print(new_set)
-#
+
 # my_list = [1,2,3,4,5,5]
 # set(my_list)
 # list(my_list)
@@ -334,7 +334,7 @@
 
 # my_set = {1,2,3,4,5}
 # your_set = {4,5,6,7,8,9,10}
-#
+
 # print(my_set.difference(your_set))
 # # my_set.discard(5)
 # # print(my_set)
@@ -357,14 +357,14 @@
 
 # is_old = False
 # is_licenced = False
-#
+
 # if is_old:
 #     print("You are old enough to drive!")
 # elif is_licenced:
 #     print("You can drive now!")
 # else:
 #     print("You are out of age!")
-#
+
 # is_old = True
 # is_licenced = True
 #
@@ -388,7 +388,7 @@
 
 # username = "Mateusz"
 # password = "123"
-#
+
 # if username and password:
 #     print("Ok")
 # else: print("Not ok")
@@ -406,13 +406,173 @@
 
 # is_friend = True
 # is_user = False
-#
+
 # if is_friend or is_user:
 #     print("best friends forever")
-#
+
 # if is_friend and is_user:
 #     print("best friends forever")
 # else: print("not bff")
 
 
 # Logical Operators
+
+# >
+# <
+# ==
+# >=
+# <=
+# !=
+
+# print( 4 > 5 )
+# print( 4 < 5 )
+# print( 4 == 5 )
+# print( "a" < "b" )
+# print( "A" == "a" )
+# print( 1 < 2 < 3 < 4 < 5 )
+# print( 1 < 2 > 3 < 4 < 5 )
+# print( 1 >= 0 )
+# print( 1 != 0 )
+# print( 0 != 0 )
+
+# and
+# or
+# not
+
+# print(not(True))
+# print(not(False))
+# print(not( 1 == 1))
+
+
+# is vs ==
+
+# print(True == 1)
+# print(" " == 1)
+# print([] == 1)
+# print(10 == 10.0)
+# print([1,2,3] == [1,2,3])
+
+# print(True is True)
+# print(1 is 1)
+# print([] is [])
+# print(10 is 10)
+# a = [1,2,3]
+# b = [1,2,3]
+# print(a == b)
+
+
+# For Loops
+
+# for item in "Zero to Mastery":
+#     print(item)
+
+# for item in [1,2,3,4,5]:
+#     print(item)
+
+# for item in {1,2,3,4,5}:
+#     print(item)
+
+# for item in (1,2,3,4,5):
+#     print(item)
+# print(item)
+
+# for item in (1,2,3,4,5):
+#     for x in ["a", "b", "c"]:
+#         print(item, x)
+
+
+# Iterables
+
+# iterable - list, dictionary, tupple, set, string
+# iterate -> one by one check each item in the collection.
+
+# user = {
+#     "name": "Golem",
+#     "age": 5006,
+#     "can_swim": False
+# }
+
+# for key, value in user.items():
+#     print(key, value)
+
+# for item in user.keys():
+#     print(item)
+
+# for item in user.values():
+#     print(item)
+
+
+# range()
+
+# print(range(100))
+# print(range(0, 100))
+
+# for _ in range(0, 10):
+#     print("mail")
+
+# for _ in range(0, 10, 2):
+#     print(_)
+
+# for _ in range(10, 0, -2):
+#     print(_)
+
+# for _ in range(2):
+#     print(list(range(10)))
+
+
+# enumerate()
+
+# for char in enumerate("Hello"):
+#     print(char)
+
+# for char in enumerate([1,2,3]):
+#     print(char)
+
+# for i,char in enumerate(list(range(100))):
+#     if char == 50:
+#         print(i, char)
+
+
+# While Loops
+
+# i = 0
+# while i < 50:
+#     print(i)
+#     i += 1
+# else: print("done with all the work")
+
+
+# While Loops 2
+
+# for item in [1,2,3]:
+#     print(item)
+
+# my_list = [1,2,3]
+# i = 0
+# while i < len(my_list):
+#     print(my_list[i])
+#     i += 1
+
+# while True:
+#     response = input("say someting")
+#     if response == "bye":
+#         break
+
+
+# break, continue, pass
+
+# for x in range(10):
+#     print("end")
+#     break
+
+# for x in range(10):
+#     continue
+#     print("hi")
+
+# for x in range(10):
+#     pass
+#     print("hello")
+
+
+# Our First GUI
+
