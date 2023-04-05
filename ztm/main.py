@@ -574,5 +574,48 @@
 #     print("hello")
 
 
-# Our First GUI
+# Functions
+
+# def say_hello():
+#     print("Hello!")
+
+# say_hello()
+
+
+# Parameters and Arguments
+
+# def say_hello(name="Jedi", emoji=":OOO"):
+#     print(f"Hello {name} {emoji}!")
+
+# say_hello("Mateusz", ":D")
+# say_hello("Szymon", ":D")
+# say_hello("Oliwia", ":D")
+
+
+# Deafult Parameters and Keyword Arguments
+
+# say_hello(":D", "Mateusz")
+# say_hello(emoji=":D", name="Mateusz")
+# say_hello()
+# say_hello("Tom")
+
+
+# return
+
+# def sum(num1, num2):
+#     return num1 + num2
+#
+# total = sum(10,10)
+# print(sum(4,total))
+
+# def sum(num1, num2):
+#     def another_sum(n1, n2):
+#         return n1 + n2
+#     return another_sum(num1, num2)
+
+# total = sum(20, 10)
+# print(total)
+
+
+# Methods vs Functions
 
