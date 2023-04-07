@@ -619,3 +619,28 @@
 
 # Methods vs Functions
 
+# list()
+# print()
+# max()
+# min()
+# input()
+
+# def some_random_stuff():
+#     pass
+
+# some_random_stuff()
+
+# print("hello".capitalize())
+
+
+# Docstrings
+
+# def test(a):
+#     '''
+#     Info: this function tests and prints param a
+#     '''
+#     print(a)
+
+# test("!")
+# help(test)
+# print(test.__doc__)
