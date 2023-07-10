@@ -644,3 +644,26 @@
 # test("!")
 # help(test)
 # print(test.__doc__)
+
+# Clean Code
+# def is_even(num):
+#     return num % 2 == 0
+#
+#
+# print(is_even(51))
+
+# *args and **kwargs
+
+def super_function(*args, **kwargs):
+    total = 0
+    for items in kwargs.values():
+        total += items
+    return sum(args) + total
+
+print(super_function(1,2,3,4,5, num1=5, num2=10))
+
+#Rule: params, *args, deafult parameters, **kwargs
+
+# Walrus operator
+
+:=

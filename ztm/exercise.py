@@ -80,3 +80,12 @@
 #         print("Congratulations on your first year of driving. Enjoy the ride!")
 # checkDriverAge()
 
+#8
+def highest_even(*li):
+    y = 0
+    for x in li:
+        if x > y and x % 2 == 0:
+            y = x
+    return y
+
+print(highest_even(10,2,3,4,8,11))
