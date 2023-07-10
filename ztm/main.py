@@ -645,6 +645,7 @@
 # help(test)
 # print(test.__doc__)
 
+
 # Clean Code
 # def is_even(num):
 #     return num % 2 == 0
@@ -652,18 +653,106 @@
 #
 # print(is_even(51))
 
+
 # *args and **kwargs
 
-def super_function(*args, **kwargs):
-    total = 0
-    for items in kwargs.values():
-        total += items
-    return sum(args) + total
-
-print(super_function(1,2,3,4,5, num1=5, num2=10))
+# def super_function(*args, **kwargs):
+#     total = 0
+#     for items in kwargs.values():
+#         total += items
+#     return sum(args) + total
+#
+# print(super_function(1,2,3,4,5, num1=5, num2=10))
 
 #Rule: params, *args, deafult parameters, **kwargs
 
+
 # Walrus operator
 
-:=
+# :=
+
+# a = "helloooooooooo"
+#
+# if ((n := len(a)) > 10):
+#     print(f"too long {n} elements")
+#
+# while ((n := len(a)) > 1):
+#     print(n)
+#     a = a[:-1]
+#
+# print(a)
+
+
+# Scope
+# Scope - what variables do I have access to?
+
+# print(name())
+
+# x = 10
+#
+# def some_func():
+#     total = 100
+#     print(total)
+#
+# some_func()
+# print(x)
+# print(total)
+
+
+# Scope rules
+
+# 1 - Start with local
+# 2 - Parent local?
+# 3 - Global
+# 4 - Build in Python function
+
+# a = 1
+#
+# def parent():
+#     def confusion():
+#         return sum
+#     return confusion()
+#
+# print(parent())
+# print(a)
+
+
+# global Keyword
+
+# total = 0
+#
+# def count():
+#     global total
+#     total += 1
+#     return total
+#
+# count()
+# count()
+# count()
+# print(count())
+#
+# total = 0
+# def count(total):
+#     total += 1
+#     return total
+#
+# print(count(count(count(total))))
+
+
+# nonlocal Keyword
+#
+# def outer():
+#     x = "local"
+#     def inner():
+#         nonlocal x
+#         x = "nonlocal"
+#         print("inner", x)
+#
+#     inner()
+#     print("outer", x)
+#
+# outer()
+
+
+# Why do we need scope
+
