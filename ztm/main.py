@@ -756,3 +756,32 @@
 
 # Why do we need scope
 
+
+# Terminal Commends
+#
+# ls - current directory
+# pwd - where am i
+# cd - where i want to go
+# cd .. - go back
+# clear- to clear
+# cd / -
+# cd user directory
+# open . - opens folder
+# mkdir [name] - creating folder
+# touch index.html - creating a file
+# open index.html - opening a file
+# open -a "Sublime text"
+# open -a "Sublime text" index.html
+# open index.html
+# mv index.html about.html - renamimng
+# rm about.html - removing
+# rm -r webapp - removing folder
+
+
+# What is OPP?
+
+
+
+# Creating Our Own Objects
+# Arrributes and Methods
+# __init__
