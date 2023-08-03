@@ -778,10 +778,35 @@
 # rm -r webapp - removing folder
 
 
-# What is OPP?
+# What is OPP? 1/2
 
-
+# class BigObject:
+#     pass
+#
+# obj1 = BigObject()
+#
+# print(type(obj1))
 
 # Creating Our Own Objects
+
+class PlayerCharacter:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def run(self):
+        print("run")
+        return "done"
+
+player1 = PlayerCharacter("Mateusz", 20)
+player2 = PlayerCharacter("Szymon", 16)
+player2.attack = 50
+
+print(player1.name, player1.age)
+print(player2.name, player2.age, player2.attack)
+print(player1.run())
+
 # Arrributes and Methods
+
+help(player1)
+
 # __init__

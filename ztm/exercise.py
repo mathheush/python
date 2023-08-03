@@ -81,11 +81,12 @@
 # checkDriverAge()
 
 #8
-def highest_even(*li):
-    y = 0
-    for x in li:
-        if x > y and x % 2 == 0:
-            y = x
-    return y
+# def highest_even(*li):
+#     y = 0
+#     for x in li:
+#         if x > y and x % 2 == 0:
+#             y = x
+#     return y
+#
+# print(highest_even(10,2,3,4,8,11))
 
-print(highest_even(10,2,3,4,8,11))
